@@ -1,0 +1,11 @@
+@import "reset";
+@import "variables/variables";
+@import "block/all-block";
+
+
+
+
+.wrapper {
+    max-width: $content-width;
+    margin: 0 auto;
+}
