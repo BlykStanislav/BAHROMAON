@@ -515,6 +515,10 @@ input::placeholder {
   line-height: 20px;
   letter-spacing: 0.2em;
 }
+.scroll_down-text:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
 .nav_bg {
   background-color: #5373FD;
@@ -893,6 +897,138 @@ input::placeholder {
 }
 .block_img-two {
   align-self: flex-end;
+}
+
+.TouristSay {
+  background: url(/img/BG.jpg);
+  background-size: cover;
+  height: 680px;
+  background-position-y: center;
+}
+@media screen and (max-width: 768px) {
+  .TouristSay {
+    height: 920px;
+  }
+}
+.TouristSay_title {
+  text-align: center;
+  font-family: "Aleo";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  font-style: normal;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  padding: 120px 0 60px;
+}
+@media screen and (max-width: 768px) {
+  .TouristSay_title {
+    padding: 60px 0 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .TouristSay_title {
+    font-size: 28px;
+  }
+}
+.TouristSay_review {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .TouristSay_review {
+    display: block;
+  }
+}
+
+.review_text {
+  background-color: #333333;
+  padding: 45px 60px;
+  max-width: 885px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 375px) {
+  .review_text {
+    padding: 20px;
+  }
+}
+.review_text-title {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.review_text-subtitle {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.review_photo-img {
+  width: 100%;
+  height: 100%;
+  min-width: 350px;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .review_photo-img {
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    object-fit: cover;
+    max-height: 336px;
+  }
+}
+
+.footer {
+  background-color: #000000;
+}
+.footer_logo {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer_logo-block {
+  text-align: center;
+  padding-top: 80px;
+}
+.footer_subtitle {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 22px;
+}
+.footer_menu {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding-bottom: 82px;
+}
+.footer_svg {
+  fill: #FFFFFF;
+}
+.footer_svg:hover {
+  fill: #5373FD;
+  transition: 0.5s;
 }
 
 .wrapper {

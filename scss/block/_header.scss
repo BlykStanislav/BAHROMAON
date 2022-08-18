@@ -151,6 +151,10 @@ input::placeholder{
             font-size: 14px;
             line-height: 20px;
             letter-spacing: 0.2em;
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.3s;
+            }
         }
     }
 

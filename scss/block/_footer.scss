@@ -1,0 +1,43 @@
+.footer {
+    background-color: $black;
+    &_logo {
+        font-family: 'Josefin Sans';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        font-style: normal;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $white;
+        text-decoration: none;
+        &-block {
+            text-align: center;
+            padding-top: 80px;
+        }
+    }
+    &_subtitle {
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        font-style: normal;
+        letter-spacing: 0.2em;
+        color: $white;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 22px;
+    }
+    &_menu {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        padding-bottom: 82px;
+    }
+    &_svg {
+        fill:$white;
+        &:hover {
+            fill: $blue;
+            transition: 0.5s;
+        }
+    }
+}
