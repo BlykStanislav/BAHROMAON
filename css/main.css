@@ -579,7 +579,7 @@ input::placeholder {
 }
 
 .BookNow_one {
-  background: url(/img/BgBookNowOne.jpg);
+  background: url(../img/BgBookNowOne.jpg);
   background-size: cover;
   height: 684px;
   background-position-y: center;
@@ -665,7 +665,7 @@ input::placeholder {
 }
 
 .BookNow_two {
-  background: url(/img/BgBookNowTwo.jpg);
+  background: url(../img/BgBookNowTwo.jpg);
   background-size: cover;
   height: 684px;
   background-position-y: center;
@@ -782,7 +782,7 @@ input::placeholder {
 }
 
 .section_why {
-  background: url(/img/WhyBackground.jpg);
+  background: url(../img/WhyBackground.jpg);
   background-size: cover;
   height: 704px;
   background-position-y: center;
@@ -900,7 +900,7 @@ input::placeholder {
 }
 
 .TouristSay {
-  background: url(/img/BG.jpg);
+  background: url(../img/BG.jpg);
   background-size: cover;
   height: 680px;
   background-position-y: center;
