@@ -1,0 +1,36 @@
+.section_steps {
+    background-color: $dark-gray;
+}
+
+.icon_box {
+    display: flex;
+    justify-content: space-around;
+    background: url(../img/LineBg.svg) no-repeat;
+    background-position-x: center;
+    background-position-y: 65px;
+    background-size: 60%;
+    @media screen and (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+        background: $dark-gray;
+    }
+    &__container {
+        margin: 107px 0 60px;
+        text-align: center;
+        @media screen and(max-width:768px) {
+            margin: 10px 0;
+        }
+        &-p {
+            font-family: $secondary-font;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 40px;
+            color: $white;
+            text-align: center;
+            @media screen and (max-width:768px) {
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+    }
+}

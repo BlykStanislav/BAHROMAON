@@ -1,0 +1,81 @@
+.BookNow_one {
+    background: url(/img/BgBookNowOne.jpg);
+    background-size: cover;
+    height: 684px;
+    background-position-y: center;
+    background-position-x: center;
+    padding-top: 220px;
+    box-sizing: border-box;
+    @media  screen and (max-width:425px) {
+        padding-top: 100px;
+    }
+
+}
+
+.book_content__two {
+    max-width: 648px;
+    background: rgba(35, 35, 35, 0.9);
+    min-height: 344px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    margin-left: auto;
+    @media screen and (max-width:1440px) {
+        margin: 0 15px;
+        margin-left: auto;
+    }
+    @media screen and (max-width:678px) {
+        margin: 0 15px;
+    }
+    @media  screen and (max-width:425px) {
+        text-align: center;
+    }
+    &-p {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: $white;
+        letter-spacing: 0.1em;
+    }
+    &-title {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: $white;
+        margin: 16px 0;
+    }
+    &-subtitle {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: $white;
+        letter-spacing: 0.1em;
+        margin-bottom: 44px;
+    }
+    &-btn {
+        background-color: $blue;
+        font-family: 'Aleo';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        font-style: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        color: $white;
+        text-decoration: none;
+
+        padding: 20px 56px;
+
+        &:hover {
+            background-color: $color-hover;
+            transition: 0.5s;
+        }
+
+    }
+}

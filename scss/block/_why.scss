@@ -1,0 +1,109 @@
+.section_why {
+    background: url(/img/WhyBackground.jpg);
+    background-size: cover;
+    height: 704px;
+    background-position-y: center;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width:1024px) {
+        padding: 0 10px;
+    }
+    @media  screen and (max-width:767px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    &_text {
+        max-width: 648px;
+        margin: 190px 0;
+        @media screen and (max-width:900px) {
+            margin: 150px 0;
+        }
+        @media  screen and (max-width:768px) {
+            margin: 125px 0;
+
+        }
+        @media screen and (max-width:767px) {
+            margin: 20px 0;
+            text-align: center;
+            max-width: 100%;
+        }
+        &-title {
+            text-transform: capitalize;
+            font-family: $secondary-font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 40px;
+            color: $white;
+            @media screen and (max-width:767px) {
+                font-size: 30px;
+                line-height: 34px;
+            }
+        }
+        &-subtitle {
+            font-family: $primary-font;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+            color: $white;
+            margin-top: 24px;
+            @media screen and (max-width:768px) {
+                margin-top: 60px;
+            }
+        }
+        &-button {
+            display: inline-block;
+            font-family: $primary-font;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            background-color: $blue;
+            color: $white;
+            padding: 22px 28px;
+            text-decoration: none;
+            margin-top: 32px;
+
+            &:hover {
+                background-color: $color-hover;
+                transition: 0.5s;
+            }
+
+        }
+    }
+
+    &_img {
+        margin: 124px 0;
+        width: 424px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media screen and (max-width:767px) {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            :first-child {
+                width: 100%;
+                margin-right: 5px;
+            }
+            :last-child {
+                width: 100%;
+            }
+        }
+
+        &-one {
+            
+        }
+        &-two {
+            align-self: flex-end;
+        }
+    }
+}
